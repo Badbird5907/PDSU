@@ -2601,6 +2601,298 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TPS54331D:TPS54331D"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 13.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TPS54331D"
+				(at -12.7 -16.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TPS54331D:SOIC127P599X175-8N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "3.5V to 28V Input, 3A, 570kHz Step-Down Converter with Eco-mode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SOIC-8 Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS54331D/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TPS54331D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TPS54331D/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TPS54331D_0_0"
+				(rectangle
+					(start -12.7 -12.7)
+					(end 12.7 12.7)
+					(stroke
+						(width 0.41)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -17.78 10.16 0)
+					(length 5.08)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "PH"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "SS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "VSENSE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(name "COMP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "not done, pull up"
 		(exclude_from_sim no)
@@ -2856,7 +3148,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 110.49) (xy 123.19 110.49)
+			(xy 83.82 110.49) (xy 123.19 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2936,7 +3228,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 123.19) (xy 95.25 113.03)
+			(xy 88.9 123.19) (xy 88.9 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3166,7 +3458,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 113.03) (xy 123.19 113.03)
+			(xy 88.9 113.03) (xy 123.19 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3416,7 +3708,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 123.19) (xy 86.36 110.49)
+			(xy 83.82 123.19) (xy 83.82 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3777,7 +4069,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape input)
-		(at 95.25 123.19 270)
+		(at 88.9 123.19 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3788,7 +4080,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at 86.36 123.19 270)
+		(at 83.82 123.19 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4220,6 +4512,173 @@
 		)
 	)
 	(symbol
+		(lib_id "TPS54331D:TPS54331D")
+		(at 228.6 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "327bf054-3a48-43f9-9d43-6395ef2e9116")
+		(property "Reference" "U1"
+			(at 228.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS54331D"
+			(at 228.6 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TPS54331D:SOIC127P599X175-8N"
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "3.5V to 28V Input, 3A, 570kHz Step-Down Converter with Eco-mode"
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8 Texas Instruments"
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS54331D/Texas+Instruments/view-part/?ref=snap"
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TPS54331D"
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPS54331D/Texas+Instruments/view-part/?ref=eda"
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88b493a7-0d2a-4802-9871-bacb1869ad3f")
+		)
+		(pin "7"
+			(uuid "e19b7a51-1e54-42a7-8cf9-540c0c7367af")
+		)
+		(pin "6"
+			(uuid "1457e087-8755-4234-92b0-7baee0548760")
+		)
+		(pin "8"
+			(uuid "c4e2268b-decf-4179-b54b-8e06c0409961")
+		)
+		(pin "2"
+			(uuid "a10c1592-ec98-472b-a4ad-6bb6faf034c0")
+		)
+		(pin "4"
+			(uuid "5dfce234-6c14-43ad-9364-fd32d9ef64b8")
+		)
+		(pin "5"
+			(uuid "87484110-b9e1-40bc-819f-fadfabebae78")
+		)
+		(pin "3"
+			(uuid "3b1cd5aa-ea5e-430e-b108-e03089d96e14")
+		)
+		(instances
+			(project ""
+				(path "/7a2fe565-c497-4bbc-a9ac-a0a5f0f67328/4de8efdc-a788-4a67-8536-a7c2640bcc0c"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Interface_USB:STUSB4500QTR")
 		(at 138.43 102.87 0)
 		(unit 1)
@@ -4561,7 +5020,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Current:INA180A3")
-		(at 257.81 149.86 0)
+		(at 156.21 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4570,7 +5029,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e8a0944-1892-42db-8815-d0ddac531d87")
 		(property "Reference" "U5"
-			(at 269.24 143.4398 0)
+			(at 167.64 148.5198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4578,7 +5037,7 @@
 			)
 		)
 		(property "Value" "INA180A3"
-			(at 269.24 145.9798 0)
+			(at 167.64 151.0598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4586,7 +5045,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 259.08 148.59 0)
+			(at 157.48 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4595,7 +5054,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
-			(at 261.62 146.05 0)
+			(at 160.02 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4604,7 +5063,7 @@
 			)
 		)
 		(property "Description" "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 100 V/V, SOT-23-5"
-			(at 257.81 149.86 0)
+			(at 156.21 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
