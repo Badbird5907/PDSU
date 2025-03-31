@@ -415,6 +415,18 @@
     [
       "4de8efdc-a788-4a67-8536-a7c2640bcc0c",
       "PowerInput"
+    ],
+    [
+      "384eb686-8507-4fe7-b380-c0d2ed53ff95",
+      "PowerInput1"
+    ],
+    [
+      "8214f10f-2c6e-4274-a3ba-6a32c80ab6b1",
+      "PowerInput2"
+    ],
+    [
+      "c2ea810b-3e14-4f17-8acf-ca943e03b0c4",
+      "PowerInput3"
     ]
   ],
   "text_variables": {}
